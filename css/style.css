@@ -1,0 +1,219 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    border: none;
+    border-radius: 0;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    color: rgb(30, 30, 50) !important;
+}
+
+.navbar-right > li >a  {
+    font-size: 20px;
+    color: rgb(30, 30, 50) !important;
+}
+
+.icon-bar {
+    background-color: rgb(30, 30, 50) !important;
+}
+
+.container {
+    border-radius: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    margin-top: 80px;
+}
+
+.hero {
+    background: url(/images/covid.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+}
+
+#main > h1 {
+    margin-top: 400px;
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#main > .btn {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+    padding-top: 9px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#main > .btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.counter {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.counter > h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(30, 30, 50);
+}
+.counter > h4 {
+    font-size: 40px;
+    font-weight: normal;
+    color: rgb(30, 30, 50);
+
+}
+
+.stats {
+    margin-top: 30px;
+}
+
+.caption {
+    text-align: center;
+}
+
+.caption > h3 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.caption > p {
+    font-size: 20px;
+    color: white;
+
+}
+
+.thumbnail {
+    border-radius: 8px;
+    background-color: rgba(30, 30, 50, 1);
+}
+
+.advices > h3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(30, 30, 50);
+
+}
+
+.advices > p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.contact {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact > h3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(30, 30, 50);
+
+}
+
+#contact-button {
+    margin-top: 30px;
+    background-color: rgb(30, 30, 50);
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 100%;
+    height: 200px;
+}
+
+#quote {
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(30, 30, 50);
+}
+
+.footer {
+    background-color: rgb(30, 30, 50);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+#copyright {
+    color: white;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #main {
+        text-align: center;
+    }
+
+    #main > h1 {
+        margin-top: 150px;
+        color: white;
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    #main > .btn {
+        background-color: rgba(30, 30, 50, 0.8);
+        margin-bottom: 100px;
+    }
+
+    .advices {
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #main > h1 {
+        margin-top: 50px;
+    }
+
+    #main > .btn {
+        margin-bottom: 30px;
+    }
+
+    .counter > h1 {
+        font-size: 70px;
+    }
+
+    #contact-button {
+        font-size: 40px;
+    }
+}
+
+
+
+
+
