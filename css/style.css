@@ -37,7 +37,8 @@
 }
 
 .hero {
-    background: url(/images/covid.jpg);
+    
+    background: url(http://www.mediafire.com/convkey/a1f4/w96onwpx4fqa0ruzg.jpg);
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -45,6 +46,7 @@
 }
 
 #main > h1 {
+
     margin-top: 400px;
     color: white;
     font-size: 80px;
@@ -52,6 +54,7 @@
 }
 
 #main > .btn {
+
     margin-top: 10px;
     background-color: rgba(255, 255, 255, 0);
     height: 50px;
